@@ -1,0 +1,57 @@
+
+/*************************************************************************************************************************************************************************************************************************************************************
+
+"userChrome.css" is a custom CSS file that can be used to specify CSS style rules for Floorp's interface (NOT internal site) using "chrome" privileges.
+For instance, if you want to hide the tab bar, you can use the following CSS rule:
+
+**************************************
+#TabsToolbar {                       *
+    display: none !important;        *
+}                                    *
+**************************************
+
+NOTE: You can use the userChrome.css file without change preferences (about:config)
+
+Quote: https://userChrome.org | https://github.com/topics/userchrome 
+
+************************************************************************************************************************************************************************************************************************************************************/
+
+@charset "UTF-8";
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+/* Please write your custom CSS under this line*/
+#fxa-avatar-image {
+    width: 25px !important;
+    height: 25px !important;
+}
+:root:not([privatebrowsingmode="temporary"], [firefoxviewhidden]) :is(toolbarbutton, toolbarpaletteitem) + #tabbrowser-tabs, :root[privatebrowsingmode="temporary"]:not([firefoxviewhidden]) :is(toolbarbutton:not(#firefox-view-button), toolbarpaletteitem:not(#wrapper-firefox-view-button)) + #tabbrowser-tabs {
+  border-inline-start: 0px solid color-mix(in srgb, currentColor 25%, transparent) !important;
+  padding-inline-start: calc(var(--tab-overflow-pinned-tabs-width) + 2px);
+  margin-inline-start: 2px;
+}
+
+#TabsToolbar .toolbarbutton-1 {
+  margin-left: 0px !important;
+}
+#urlbar-background,#urlbar {
+
+  border-radius: 20px !important;
+}
+.tab-icon-overlay {
+  stroke: unset !important;
+  fill: unset !important;
+  background: unset !important;
+  fill-opacity: 0 !important;
+}
+:root {
+  --tab-border-radius: 20px !important;   /* removes the roundness on tabs */
+  --toolbarbutton-border-radius: 20px !important;
+
+}
+.tab-background {
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+}
+.tab-close-button {
+margin-inline-end: unset !important;
+}
+}
