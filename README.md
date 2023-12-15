@@ -13,12 +13,7 @@
    <li>Install and use this theme if you want pink theme (you can use other themes): <a href="https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-pink/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser"> Catppuccin-mocha-pink</a></li>
    <li>Restart the browser.</li>
 </ol>
-## Addictional Stuff
-<ol>
-   <li>Wallpaper:![wp5393135](https://github.com/Khalylexe/Floorp-Rounded-Theme/assets/119526243/03e8c9c2-ce2c-4e27-bfe0-acc7a3135aa4)
- </li>
-</ol>
-
+   
 ## Compatibility
 
 <ul>
