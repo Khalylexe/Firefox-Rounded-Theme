@@ -19,39 +19,31 @@ Quote: https://userChrome.org | https://github.com/topics/userchrome
 @charset "UTF-8";
 @-moz-document url(chrome://browser/content/browser.xhtml) {
 /* Please write your custom CSS under this line*/
-#fxa-avatar-image {
+#fxa-avatar-image {     /*makes your avatar picture larger*/ 
     width: 25px !important;
     height: 25px !important;
 }
 :root:not([privatebrowsingmode="temporary"], [firefoxviewhidden]) :is(toolbarbutton, toolbarpaletteitem) + #tabbrowser-tabs, :root[privatebrowsingmode="temporary"]:not([firefoxviewhidden]) :is(toolbarbutton:not(#firefox-view-button), toolbarpaletteitem:not(#wrapper-firefox-view-button)) + #tabbrowser-tabs {
-  border-inline-start: 0px solid color-mix(in srgb, currentColor 25%, transparent) !important;
-  padding-inline-start: calc(var(--tab-overflow-pinned-tabs-width) + 2px);
-  margin-inline-start: 2px;
+  border-inline-start: 0px solid color-mix(in srgb, currentColor 25%, transparent) !important; /*removes seperator line between toolbar item and tabs*/
 }
 
-#TabsToolbar .toolbarbutton-1 {
-  margin-left: 0px !important;
-}
-#urlbar-background,#urlbar {
+#urlbar-background,#urlbar { /*makes url bar rounded*/
 
   border-radius: 20px !important;
 }
-.tab-icon-overlay {
+.tab-icon-overlay { /*removes audio playing in tab icon*/
   stroke: unset !important;
   fill: unset !important;
   background: unset !important;
   fill-opacity: 0 !important;
 }
 :root {
-  --tab-border-radius: 20px !important;   /* removes the roundness on tabs */
-  --toolbarbutton-border-radius: 20px !important;
+  --tab-border-radius: 20px !important;   /* makes tabs rounded */
+  --toolbarbutton-border-radius: 15px !important; /*makes floorp icon in toolbar rounded */
 
 }
-.tab-background {
-  margin-left: 1px !important;
+.tab-background {    /*seperate the tabs by a small margin since they were close to eachother*/
+  margin-left: 1px !important; 
   margin-right: 1px !important;
-}
-.tab-close-button {
-margin-inline-end: unset !important;
 }
 }
