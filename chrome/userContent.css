@@ -18,11 +18,11 @@ NOTE: You can use the userContent.css file without change preferences (about:con
 
 @charset "UTF-8";
 /* Please write your custom CSS under this line*/
-@-moz-document url-prefix("about:newtab"), url-prefix("about:home") {
-.releasenote {
+@-moz-document url-prefix("about:newtab"), url-prefix("about:home") { /*this modifies the new tab page for cleaner look*/
+.releasenote { /*makes Support and Release Note invincible*/
     color: #ffffff00 !important;
   }
-  .personalize-button {
+  .personalize-button { /*makes Settings Button in New Tab Rounded*/
     border: 0;
     border-radius: 20px !important;
     background-color: transparent;
