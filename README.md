@@ -26,7 +26,7 @@ thanks for <code>Godiesc</code> this template if you don't want me to use it tel
 <ul>
 <li>Linux Distros (Not tested) ❌ </li>
 <li>Windows 10 (Tested) ✔
-<li>Windows 11 (Not testet) ⚠  Could work well for compatibility with windows 10. </li>
+<li>Windows 11 (Not tested) ⚠  Could work well for compatibility with windows 10. </li>
 <li>Windows 7 (Not tested) ❌ </li>
 <li>MacOS (Not tested) ❌ </li>
 </ul>
