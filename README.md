@@ -14,6 +14,12 @@
    <li>Restart the browser.</li>
    <li>if you want the wallpaper download it in <code>Releases</code> section</li>
 </ol>
+
+## Credits
+thanks for <code>Godiesc</code> this template if you don't want me to use it tell me (nice theme btw)
+![image](https://github.com/Khalylexe/Floorp-Rounded-Theme/assets/119526243/077d084c-6644-4e69-8faa-1d41c6ed8e1a)
+
+
    
 ## Compatibility
 
