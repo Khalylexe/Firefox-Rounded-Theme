@@ -1,6 +1,6 @@
-# FLoorp-Rounded-Corners
+# Firefox-Rounded-Corners
 
-<ul><li>Floorp Rounded Corners</li>
+<ul><li>Firefox Rounded Corners</li>
 
 
 ![image](https://github.com/Khalylexe/Floorp-Rounded-Theme/assets/119526243/89b9bea3-16c7-4052-a89d-84515a445870)
