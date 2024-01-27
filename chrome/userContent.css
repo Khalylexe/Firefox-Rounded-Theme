@@ -22,6 +22,9 @@ NOTE: You can use the userContent.css file without change preferences (about:con
 .releasenote { /*makes Support and Release Note invincible*/
     color: #ffffff00 !important;
   }
+  body{
+    background: url(wallpaper.jpg) !important; background-size: cover !important;
+  }
   .personalize-button { /*makes Settings Button in New Tab Rounded*/
     border: 0;
     border-radius: 20px !important;
