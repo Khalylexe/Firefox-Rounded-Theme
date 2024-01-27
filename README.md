@@ -14,7 +14,6 @@
    <li>Unzip the file and copy the <code>chrome</code> folder into your Firefox profile directory. To find out the location of your profile directory go to <a href="https://github.com/Godiesc/floorp-one#example-of-aboutsupport"> about:support</a> or about:profiles.</li>
    <li>Install and use this theme if you want pink theme (you can use other themes): <a href="https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-pink/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser"> Catppuccin-mocha-pink</a></li>
    <li>Restart the browser.</li>
-   <li>if you want the wallpaper download it in <code>Releases</code> section</li>
 </ol>
 
 ## Credits
