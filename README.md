@@ -3,7 +3,8 @@
 <ul><li>Firefox Rounded Corners</li>
 
 
-![image](https://github.com/Khalylexe/Floorp-Rounded-Theme/assets/119526243/89b9bea3-16c7-4052-a89d-84515a445870)
+![image](https://github.com/Khalylexe/Firefox-Rounded-Theme/assets/119526243/25ab6e0f-c177-49ed-b7a1-6259be47d5c7)
+
 
 
 ## Steps to configure the theme
