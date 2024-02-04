@@ -14,9 +14,10 @@
    <li>Unzip the file and copy the <code>chrome</code> folder into your Firefox profile directory. To find out the location of your profile directory go to <a href="https://github.com/Godiesc/floorp-one#example-of-aboutsupport"> about:support</a> or about:profiles.</li>
    <li>Restart the browser.</li>
 </ol>
+
 > [!TIP]
-> Floorp is recommended for the best experience
-   
+> Floorp Browser is recommended for best experience
+
 ## Compatibility
 
 <ul>
