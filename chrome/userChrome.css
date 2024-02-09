@@ -77,5 +77,50 @@ Quote: https://userChrome.org | https://github.com/topics/userchrome
     border: 3px solid rgba(51, 51, 51, 0.6);
     box-shadow: 0 0 10px 5px rgba(255,255,255,0.5);
 }
+    /***********************************************Search Bar*********************************************/
+/* ----- Remove search engines from the search/url bar ----- */
+#urlbar .search-one-offs:not([hidden]) {
+  display:none !important;
+}
+/* Remove border from search bar */
+#nav-bar #urlbar {
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+
+#urlbar {
+  min-height: 30px !important;
+}
+
+#nav-bar #urlbar[breakout][breakout-extend][open] {
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px !important;
+}
+
+#nav-bar #search-container #searchbar {
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+/* No background color for url bar */
+#nav-bar #urlbar {
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+#nav-bar #urlbar[breakout][breakout-extend][open] {
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px !important;
+  background-color: var(--firefoxcss-url-breakout-bar-bg-color) !important;
+}
 
 }
